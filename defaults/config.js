@@ -10,7 +10,7 @@ module.exports = {
 	// @type     boolean
 	// @default  false
 	//
-	public: false,
+	public: true,
 
 	//
 	// IP address or hostname for the web server to listen on.
@@ -105,7 +105,7 @@ module.exports = {
 	// @type     boolean
 	// @default  true
 	//
-	displayNetwork: true,
+	displayNetwork: false,
 
 	//
 	// Lock network
@@ -116,7 +116,7 @@ module.exports = {
 	// @type     boolean
 	// @default  false
 	//
-	lockNetwork: false,
+	lockNetwork: true,
 
 	//
 	// Hex IP
@@ -199,7 +199,7 @@ module.exports = {
 		// @type     string
 		// @default  "Freenode"
 		//
-		name: "Freenode",
+		name: "DFMS",
 
 		//
 		// Host
@@ -239,7 +239,7 @@ module.exports = {
 		// @type     string
 		// @default  "lounge-user"
 		//
-		nick: "lounge-user",
+		nick: "dfms-user",
 
 		//
 		// Username
@@ -247,7 +247,7 @@ module.exports = {
 		// @type     string
 		// @default  "lounge-user"
 		//
-		username: "lounge-user",
+		username: "dfms-user",
 
 		//
 		// Real Name
@@ -255,7 +255,7 @@ module.exports = {
 		// @type     string
 		// @default  "The Lounge User"
 		//
-		realname: "The Lounge User",
+		realname: "DFMS Student",
 
 		//
 		// Channels
@@ -264,7 +264,7 @@ module.exports = {
 		// @type     string
 		// @default  "#thelounge"
 		//
-		join: "#thelounge"
+		join: "#dfms"
 	},
 
 	//
